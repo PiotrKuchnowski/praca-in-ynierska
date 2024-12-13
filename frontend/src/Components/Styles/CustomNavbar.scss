@@ -1,0 +1,19 @@
+
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar .dropdown-toggle {
+    display: flex;
+    align-items: center;
+ }
+
+.navbar .dropdown-toggle .avatar {
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+  
+  .navbar .dropdown-toggle .user-text {
+    vertical-align: middle;
+  }

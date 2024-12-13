@@ -1,0 +1,36 @@
+@import "../../../Styles/variables.scss";
+
+.offer-details {
+  .offer-details-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: $light;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .offer-details-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .offer-details-description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .offer-small-icon {
+    margin-right: 0.5rem;
+    color: $primary;
+  }
+
+  .offer-details-icon {
+    font-size: 10rem;
+    color: $dark;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}

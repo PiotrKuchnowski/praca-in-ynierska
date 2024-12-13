@@ -1,0 +1,76 @@
+@import "./variables.scss";
+@import "./CustomBootstrap.css";
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: darken($primary, 10%);
+        text-decoration: underline;
+    }
+}
+
+footer {
+    background-color: $dark;
+    color: $primary-light;
+    position: relative;
+    padding: 0;
+    a {
+        color: $primary-light;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus {
+            color: darken($primary-light, 10%);
+        }
+    }
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    background: linear-gradient(to right, $secondary, lighten($accent, 20%));
+}
+
+.square-dropdown::after {
+    content: none;
+}
+
+.page-item.square-pagination-item .page-link {
+    border-radius: 0px !important;
+    border-right: none !important;
+    border-left: none;
+}
+
+
+.container-relative {
+    position: relative;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.required-asterisk::after{
+    content: "*";
+    color: $primary;
+    margin-left: 0.25rem;
+}

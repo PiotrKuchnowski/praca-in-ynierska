@@ -1,0 +1,18 @@
+
+@import "./variables.scss";
+.loading-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .alert{
+    margin: 0 !important;
+  }
+
+  .nav-arrow{
+    font-size: 2rem;
+    color: $primary;
+  }

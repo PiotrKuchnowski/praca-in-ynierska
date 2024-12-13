@@ -1,0 +1,46 @@
+.offer-card {
+    width: 100%;
+    height: fit-content;
+    will-change: transform;
+    transition: transform 0.2s;
+    backface-visibility: hidden;
+
+    .offer-card-img-col {
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 10rem; /* Reduced width */
+        aspect-ratio: 1;
+    }
+
+    .offer-card-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 3rem;
+
+        p {
+            font-size: 0.8rem;
+            margin: 0;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.01);
+        cursor: pointer;
+    }
+
+    .offer-small-icon {
+        margin-right: 0.5rem;
+    }
+
+    @media (max-width: 767px) {
+        .offer-card-img-col {
+            width: 5rem; /* Reduced width for mobile */
+        }
+
+        .offer-card-img {
+            font-size: 2rem;
+        }
+    }
+}
