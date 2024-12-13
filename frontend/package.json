@@ -1,0 +1,75 @@
+{
+  "name": "doryw-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.4",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "@use-gesture/react": "^10.3.1",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "core-js": "^3.39.0",
+    "date-fns": "^4.1.0",
+    "gh-pages": "^6.1.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.5",
+    "react-date-picker": "^11.0.0",
+    "react-datepicker": "^7.5.0",
+    "react-datetime-picker": "^6.0.1",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "^5.0.1",
+    "react-spring": "^9.7.4",
+    "sass": "^1.79.4",
+    "web-vitals": "^4.2.4",
+    "workbox-background-sync": "^7.3.0",
+    "workbox-broadcast-update": "^7.3.0",
+    "workbox-cacheable-response": "^7.3.0",
+    "workbox-core": "^7.3.0",
+    "workbox-expiration": "^7.3.0",
+    "workbox-google-analytics": "^7.3.0",
+    "workbox-navigation-preload": "^7.3.0",
+    "workbox-precaching": "^7.3.0",
+    "workbox-range-requests": "^7.3.0",
+    "workbox-routing": "^7.3.0",
+    "workbox-strategies": "^7.3.0",
+    "workbox-streams": "^7.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "dotenv -e .env.gh-pages node set-homepage.js && npm run build && gh-pages -d build && npm run postdeploy",
+    "postdeploy": "node reset-homepage.js",
+    "css": "sass src/Styles/CustomBootstrap.scss:src/Styles/CustomBootstrap.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
