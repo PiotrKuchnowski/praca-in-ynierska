@@ -1,0 +1,19 @@
+.content-pane{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    display: flex;
+    width: 75%;
+}
+
+@media (max-width: 767px) {
+    .content-pane {
+        flex-direction: column;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+}

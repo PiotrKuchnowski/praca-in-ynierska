@@ -1,0 +1,29 @@
+@import "../../../Styles/variables.scss";
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.review-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: $light;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+    &.status-accepted {
+        background-color: lighten($color: $accent, $amount: 95%);
+    }
+
+    &.status-rejected {
+        background-color: $primary-light;
+    }
+
+    &.status-pending {
+        background-color: $light;
+    }
+}
