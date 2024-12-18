@@ -40,9 +40,17 @@ Do uruchomienia aplikacji zalecany jest **Docker** oraz **Docker Compose**.
    docker-compose up
    ```
 
-2. **Dostęp do aplikacji**
-   - Frontend: [http://localhost:3000](http://localhost:3000)
-   - Backend API: [http://localhost:8085](http://localhost:8085)
+2. Dostęp do aplikacji
+
+Domyślne adresy:
+- **Frontend:** [http://localhost:3000](http://localhost:3000)
+- **Backend API:** [http://localhost:8085](http://localhost:8085)
+
+Jeśli aplikacja jest uruchomiona na innym urządzeniu w sieci (np. Raspberry Pi), zamień `localhost` na adres IP tego urządzenia. Przykładowo, jeśli IP to `192.168.1.100`:
+- **Frontend:** [http://192.168.1.100:3000](http://192.168.1.100:3000)
+- **Backend API:** [http://192.168.1.100:8085](http://192.168.1.100:8085)
+
+> **Wskazówka:** Możesz korzystać z VPN, aby uzyskać dostęp do urządzenia hostującego aplikację w sieci prywatnej.
 
 3. **Zatrzymanie aplikacji**
    Aby zatrzymać aplikację, użyj:
