@@ -17,8 +17,8 @@
    cd backend
    ```
 3. Uruchom aplikację za pomocą Gradle:
-4. ```sh
-   git clone <URL_REPOZYTORIUM>
+```sh
+   git clone https://github.com/PiotrKuchnowski/praca-inzynierska.git
    cd backend
    ```
-5. Aplikacja będzie dostępna pod adresem `http://localhost:8080`.
+4. Aplikacja będzie dostępna pod adresem `http://localhost:8080`.
