@@ -12,12 +12,13 @@
 
 1. Upewnij się, że masz zainstalowaną JDK 17 oraz Gradle.
 2. Sklonuj repozytorium i przejdź do folderu backend:
-   ```sh
+```sh
    git clone <URL_REPOZYTORIUM>
    cd backend
    ```
 3. Uruchom aplikację za pomocą Gradle:
-  ```sh
-  ./gradlew bootRun
-  ```
-4. Aplikacja będzie dostępna pod adresem http://localhost:8080.
+4. ```sh
+   git clone <URL_REPOZYTORIUM>
+   cd backend
+   ```
+5. Aplikacja będzie dostępna pod adresem `http://localhost:8080`.
