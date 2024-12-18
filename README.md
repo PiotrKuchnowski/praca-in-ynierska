@@ -18,7 +18,7 @@ Projekt został zrealizowany z wykorzystaniem następujących narzędzi i techno
 - **React** - interfejs użytkownika (frontend),
 - **Docker Compose** - do łatwego uruchamiania wszystkich usług.
 
-## Funkcjonalności
+## Funkcje
 
 Aplikacja pozwala użytkownikom:
 - Publikować ogłoszenia o pracy dorywczej,
