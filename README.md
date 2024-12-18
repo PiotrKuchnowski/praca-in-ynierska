@@ -21,9 +21,12 @@ Projekt został zrealizowany z wykorzystaniem następujących narzędzi i techno
 ## Funkcje
 
 Aplikacja pozwala użytkownikom:
+- Rejestrować i logować się na swoje konta
 - Publikować ogłoszenia o pracy dorywczej,
 - Przeglądać dostępne oferty,
-- Aplikować na interesujące ich ogłoszenia.
+- Aplikować na interesujące ich ogłoszenia załączając wiadomości dla pracodawców,
+- W ramach konta utworzyć jeden profil pracodawcy,
+- Odpowiadać na ogłoszenia załączając opcjonalne wiadomości dla aplikantów.
 
 ## Uruchamianie aplikacji
 
